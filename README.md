@@ -17,8 +17,9 @@ Komponenter och deras funktioner
   - Blå om temperaturen är under 10°C (kallt).
   - Grön om temperaturen är mellan 10°C och 25°C (behaglig temperatur).
   - Röd om temperaturen är över 25°C (varmt).
-  -Potentiometer: För att justera LCD:ns kontrast.
+  - Potentiometer: För att justera LCD:ns kontrast.
 
+  
 Funktioner
 Projektet är uppbyggt så att det simulerar en temperaturavläsning. I koden definieras en array apiData[] med kodade temperaturvärden, som systemet "hämtar" för att sedan visa på LCD-skärmen. LCD:n visar både ett meddelande om att data har hämtats från en API-källa och själva svaret den fick. Vid varje temperaturavläsning kontrolleras värdet och RGB LED:n ändrar färg enligt följande logik:
 - Om temperaturen är under 10°C sätts RGB LED:n till blått för att indikera kallt.
