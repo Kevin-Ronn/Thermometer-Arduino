@@ -17,7 +17,7 @@ Komponenter och deras funktioner
   - Blå om temperaturen är under 10°C (kallt).
   - Grön om temperaturen är mellan 10°C och 25°C (behaglig temperatur).
   - Röd om temperaturen är över 25°C (varmt).
-  - Potentiometer: För att justera LCD:ns kontrast.
+- Potentiometer: För att justera LCD:ns kontrast.
 
   
 Funktioner
